@@ -889,31 +889,33 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _dataLuz `ui  1 e ]
 "29 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
 [v _dataBat `ui  1 e ]
-"31 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _check `i  1 e ]
-"32 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _flag `b  1 e ]
+"30 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
+[v _teste_escot `ui  1 e ]
 "33 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _flag1 `b  1 e ]
+[v _check `i  1 e ]
+"34 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
+[v _flag `b  1 e ]
 "35 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _portaFlag `i  1 e ]
+[v _flag1 `b  1 e ]
 "37 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _ant4 `b  1 e ]
-"38 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _ant5 `b  1 e ]
+[v _portaFlag `i  1 e ]
 "39 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _ant6 `b  1 e ]
+[v _ant4 `b  1 e ]
 "40 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _ant7 `b  1 e ]
+[v _ant5 `b  1 e ]
+"41 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
+[v _ant6 `b  1 e ]
 "42 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _count `uc  1 e ]
-"43 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _portaCount `uc  1 e ]
+[v _ant7 `b  1 e ]
 "44 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _temp `f  1 e ]
+[v _count `uc  1 e ]
 "45 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
-[v _luz `f  1 e ]
+[v _portaCount `uc  1 e ]
 "46 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
+[v _temp `f  1 e ]
+"47 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
+[v _luz `f  1 e ]
+"48 C:\Users\Felipe\Desktop\Códigos\Microcontroladores\Projeto Estufa\PROB03 PIC 16F877A\P3\proj1.0.c
 [v _bateria `f  1 e ]
 "154 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic.h
 [v __delay `(v  0 ef1`ul ]
@@ -1809,725 +1811,740 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 0 `i `ui
 ]
 [; ;proj1.0.c: 29: unsigned int dataBat = 0;
-"31
+"30
+[i _teste_escot
+-> -> 0 `i `ui
+]
+[; ;proj1.0.c: 30: unsigned int teste_escot = 0;
+"33
 [i _check
 -> 0 `i
 ]
-[; ;proj1.0.c: 31: int check= 0;
-"32
+[; ;proj1.0.c: 33: int check= 0;
+"34
 [i _flag
 -> 0 `i
 ]
-[; ;proj1.0.c: 32: bit flag = 0;
-"33
+[; ;proj1.0.c: 34: bit flag = 0;
+"35
 [i _flag1
 -> 0 `i
 ]
-[; ;proj1.0.c: 33: bit flag1 = 0;
-"35
+[; ;proj1.0.c: 35: bit flag1 = 0;
+"37
 [i _portaFlag
 -> 0 `i
 ]
-[; ;proj1.0.c: 35: int portaFlag = 0;
-"37
+[; ;proj1.0.c: 37: int portaFlag = 0;
+"39
 [i _ant4
 -> 0 `i
 ]
-[; ;proj1.0.c: 37: bit ant4 = 0;
-"38
+[; ;proj1.0.c: 39: bit ant4 = 0;
+"40
 [i _ant5
 -> 0 `i
 ]
-[; ;proj1.0.c: 38: bit ant5 = 0;
-"39
+[; ;proj1.0.c: 40: bit ant5 = 0;
+"41
 [i _ant6
 -> 0 `i
 ]
-[; ;proj1.0.c: 39: bit ant6 = 0;
-"40
+[; ;proj1.0.c: 41: bit ant6 = 0;
+"42
 [i _ant7
 -> 0 `i
 ]
-[; ;proj1.0.c: 40: bit ant7 = 0;
-"42
+[; ;proj1.0.c: 42: bit ant7 = 0;
+"44
 [i _count
 -> -> 0 `i `uc
 ]
-[; ;proj1.0.c: 42: unsigned char count = 0;
-"43
+[; ;proj1.0.c: 44: unsigned char count = 0;
+"45
 [i _portaCount
 -> -> 0 `i `uc
 ]
-[; ;proj1.0.c: 43: unsigned char portaCount = 0;
-"44
+[; ;proj1.0.c: 45: unsigned char portaCount = 0;
+"46
 [i _temp
 -> -> 0 `i `f
 ]
-[; ;proj1.0.c: 44: float temp = 0;
-"45
+[; ;proj1.0.c: 46: float temp = 0;
+"47
 [i _luz
 -> -> 0 `i `f
 ]
-[; ;proj1.0.c: 45: float luz = 0;
-"46
+[; ;proj1.0.c: 47: float luz = 0;
+"48
 [i _bateria
 -> -> 0 `i `f
 ]
-[; ;proj1.0.c: 46: float bateria = 0;
-"50
-[v F1176 `(v  1 tf ]
-[v _interupt `IF1176  1 e ]
+[; ;proj1.0.c: 48: float bateria = 0;
+"52
+[v F1177 `(v  1 tf ]
+[v _interupt `IF1177  1 e ]
 {
-[; ;proj1.0.c: 49: void interrupt interupt(void)
-[; ;proj1.0.c: 50: {
+[; ;proj1.0.c: 51: void interrupt interupt(void)
+[; ;proj1.0.c: 52: {
 [e :U _interupt ]
 [f ]
-[; ;proj1.0.c: 61: if(RBIF){
-"61
+[; ;proj1.0.c: 63: if(RBIF){
+"63
 [e $ ! _RBIF 103  ]
 {
-[; ;proj1.0.c: 63: if(ant4!=RB4)
-"63
-[e $ ! != _ant4 _RB4 104  ]
-[; ;proj1.0.c: 64: {
-"64
-{
-[; ;proj1.0.c: 65: if(RB4==1)
+[; ;proj1.0.c: 65: if(ant4!=RB4)
 "65
-[e $ ! == -> _RB4 `i -> 1 `i 105  ]
+[e $ ! != _ant4 _RB4 104  ]
 [; ;proj1.0.c: 66: {
 "66
 {
-[; ;proj1.0.c: 67: ant4 = 1;
+[; ;proj1.0.c: 67: if(RB4==1)
 "67
-[e = _ant4 -> -> 1 `i `b ]
-[; ;proj1.0.c: 68: portaFlag = 0;
+[e $ ! == -> _RB4 `i -> 1 `i 105  ]
+[; ;proj1.0.c: 68: {
 "68
-[e = _portaFlag -> 0 `i ]
+{
+[; ;proj1.0.c: 69: ant4 = 1;
 "69
+[e = _ant4 -> -> 1 `i `b ]
+[; ;proj1.0.c: 70: portaFlag = 0;
+"70
+[e = _portaFlag -> 0 `i ]
+"71
 }
-[; ;proj1.0.c: 69: }else
+[; ;proj1.0.c: 71: }else
 [e $U 106  ]
 [e :U 105 ]
-[; ;proj1.0.c: 70: {
-"70
-{
-[; ;proj1.0.c: 72: ant4 = 0;
+[; ;proj1.0.c: 72: {
 "72
-[e = _ant4 -> -> 0 `i `b ]
-[; ;proj1.0.c: 73: RB3 = 1;
-"73
-[e = _RB3 -> -> 1 `i `b ]
+{
+[; ;proj1.0.c: 74: ant4 = 0;
 "74
+[e = _ant4 -> -> 0 `i `b ]
+[; ;proj1.0.c: 75: RB3 = 1;
+"75
+[e = _RB3 -> -> 1 `i `b ]
+"76
 }
 [e :U 106 ]
-[; ;proj1.0.c: 74: }
-[; ;proj1.0.c: 76: RB2 = ant4;
-"76
+[; ;proj1.0.c: 76: }
+[; ;proj1.0.c: 78: RB2 = ant4;
+"78
 [e = _RB2 _ant4 ]
-"77
+"79
 }
 [e :U 104 ]
-[; ;proj1.0.c: 77: }
-[; ;proj1.0.c: 78: if(ant5!=RB5)
-"78
-[e $ ! != _ant5 _RB5 107  ]
-[; ;proj1.0.c: 79: {
-"79
-{
-[; ;proj1.0.c: 80: if(RB5==1)
+[; ;proj1.0.c: 79: }
+[; ;proj1.0.c: 80: if(ant5!=RB5)
 "80
-[e $ ! == -> _RB5 `i -> 1 `i 108  ]
+[e $ ! != _ant5 _RB5 107  ]
 [; ;proj1.0.c: 81: {
 "81
 {
-[; ;proj1.0.c: 82: ant5= 1;
+[; ;proj1.0.c: 82: if(RB5==1)
 "82
-[e = _ant5 -> -> 1 `i `b ]
+[e $ ! == -> _RB5 `i -> 1 `i 108  ]
+[; ;proj1.0.c: 83: {
 "83
+{
+[; ;proj1.0.c: 84: ant5= 1;
+"84
+[e = _ant5 -> -> 1 `i `b ]
+"85
 }
-[; ;proj1.0.c: 83: }else
+[; ;proj1.0.c: 85: }else
 [e $U 109  ]
 [e :U 108 ]
-[; ;proj1.0.c: 84: {
-"84
-{
-[; ;proj1.0.c: 86: ant5 = 0;
+[; ;proj1.0.c: 86: {
 "86
-[e = _ant5 -> -> 0 `i `b ]
-"87
-}
-[e :U 109 ]
-[; ;proj1.0.c: 87: }
-[; ;proj1.0.c: 88: RB3 = ant5;
+{
+[; ;proj1.0.c: 88: ant5 = 0;
 "88
-[e = _RB3 _ant5 ]
+[e = _ant5 -> -> 0 `i `b ]
 "89
 }
-[e :U 107 ]
+[e :U 109 ]
 [; ;proj1.0.c: 89: }
-[; ;proj1.0.c: 91: if(ant6!=RB6)
+[; ;proj1.0.c: 90: RB3 = ant5;
+"90
+[e = _RB3 _ant5 ]
 "91
-[e $ ! != _ant6 _RB6 110  ]
-[; ;proj1.0.c: 92: {
-"92
-{
-[; ;proj1.0.c: 93: if(RB6==1)
+}
+[e :U 107 ]
+[; ;proj1.0.c: 91: }
+[; ;proj1.0.c: 93: if(ant6!=RB6)
 "93
-[e $ ! == -> _RB6 `i -> 1 `i 111  ]
+[e $ ! != _ant6 _RB6 110  ]
 [; ;proj1.0.c: 94: {
 "94
 {
-[; ;proj1.0.c: 95: ant6= 1;
+[; ;proj1.0.c: 95: if(RB6==1)
 "95
-[e = _ant6 -> -> 1 `i `b ]
+[e $ ! == -> _RB6 `i -> 1 `i 111  ]
+[; ;proj1.0.c: 96: {
 "96
+{
+[; ;proj1.0.c: 97: ant6= 1;
+"97
+[e = _ant6 -> -> 1 `i `b ]
+"98
 }
-[; ;proj1.0.c: 96: }else
+[; ;proj1.0.c: 98: }else
 [e $U 112  ]
 [e :U 111 ]
-[; ;proj1.0.c: 97: {
-"97
-{
-[; ;proj1.0.c: 99: ant6 = 0;
+[; ;proj1.0.c: 99: {
 "99
-[e = _ant6 -> -> 0 `i `b ]
-"100
-}
-[e :U 112 ]
-[; ;proj1.0.c: 100: }
-[; ;proj1.0.c: 101: RA4 = ant6;
+{
+[; ;proj1.0.c: 101: ant6 = 0;
 "101
-[e = _RA4 _ant6 ]
+[e = _ant6 -> -> 0 `i `b ]
 "102
 }
-[e :U 110 ]
+[e :U 112 ]
 [; ;proj1.0.c: 102: }
-[; ;proj1.0.c: 103: if(ant7!=RB7)
+[; ;proj1.0.c: 103: RA4 = ant6;
 "103
-[e $ ! != _ant7 _RB7 113  ]
-[; ;proj1.0.c: 104: {
+[e = _RA4 _ant6 ]
 "104
-{
-[; ;proj1.0.c: 105: if(RB7==1)
+}
+[e :U 110 ]
+[; ;proj1.0.c: 104: }
+[; ;proj1.0.c: 105: if(ant7!=RB7)
 "105
-[e $ ! == -> _RB7 `i -> 1 `i 114  ]
+[e $ ! != _ant7 _RB7 113  ]
 [; ;proj1.0.c: 106: {
 "106
 {
-[; ;proj1.0.c: 107: ant7= 1;
+[; ;proj1.0.c: 107: if(RB7==1)
 "107
-[e = _ant7 -> -> 1 `i `b ]
+[e $ ! == -> _RB7 `i -> 1 `i 114  ]
+[; ;proj1.0.c: 108: {
 "108
+{
+[; ;proj1.0.c: 109: ant7= 1;
+"109
+[e = _ant7 -> -> 1 `i `b ]
+"110
 }
-[; ;proj1.0.c: 108: }else
+[; ;proj1.0.c: 110: }else
 [e $U 115  ]
 [e :U 114 ]
-[; ;proj1.0.c: 109: {
-"109
-{
-[; ;proj1.0.c: 111: ant7 = 0;
+[; ;proj1.0.c: 111: {
 "111
-[e = _ant7 -> -> 0 `i `b ]
-"112
-}
-[e :U 115 ]
-[; ;proj1.0.c: 112: }
-[; ;proj1.0.c: 113: RA5 = ant7;
+{
+[; ;proj1.0.c: 113: ant7 = 0;
 "113
-[e = _RA5 _ant7 ]
+[e = _ant7 -> -> 0 `i `b ]
 "114
 }
-[e :U 113 ]
+[e :U 115 ]
 [; ;proj1.0.c: 114: }
-[; ;proj1.0.c: 116: _delay((unsigned long)((300)*(20000000/4000.0)));
+[; ;proj1.0.c: 115: RA5 = ant7;
+"115
+[e = _RA5 _ant7 ]
 "116
+}
+[e :U 113 ]
+[; ;proj1.0.c: 116: }
+[; ;proj1.0.c: 118: _delay((unsigned long)((300)*(20000000/4000.0)));
+"118
 [e ( __delay (1 -> * -> -> 300 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
-[; ;proj1.0.c: 122: RBIF = 0;
-"122
+[; ;proj1.0.c: 124: RBIF = 0;
+"124
 [e = _RBIF -> -> 0 `i `b ]
-"123
+"125
 }
 [e :U 103 ]
-[; ;proj1.0.c: 123: }
-[; ;proj1.0.c: 126: if(TMR0IF)
-"126
-[e $ ! _TMR0IF 116  ]
-[; ;proj1.0.c: 127: {
-"127
-{
-[; ;proj1.0.c: 128: portaCount++;
+[; ;proj1.0.c: 125: }
+[; ;proj1.0.c: 128: if(TMR0IF)
 "128
-[e ++ _portaCount -> -> 1 `i `uc ]
-[; ;proj1.0.c: 129: count ++;
+[e $ ! _TMR0IF 116  ]
+[; ;proj1.0.c: 129: {
 "129
-[e ++ _count -> -> 1 `i `uc ]
-[; ;proj1.0.c: 130: if(count == 153)
-"130
-[e $ ! == -> _count `i -> 153 `i 117  ]
-[; ;proj1.0.c: 131: {
-"131
 {
-[; ;proj1.0.c: 132: CHS0 = 0;
+[; ;proj1.0.c: 130: portaCount++;
+"130
+[e ++ _portaCount -> -> 1 `i `uc ]
+[; ;proj1.0.c: 131: count ++;
+"131
+[e ++ _count -> -> 1 `i `uc ]
+[; ;proj1.0.c: 132: if(count == 153)
 "132
-[e = _CHS0 -> -> 0 `i `b ]
-[; ;proj1.0.c: 133: CHS1 = 0;
+[e $ ! == -> _count `i -> 153 `i 117  ]
+[; ;proj1.0.c: 133: {
 "133
-[e = _CHS1 -> -> 0 `i `b ]
-[; ;proj1.0.c: 134: CHS2 = 0;
+{
+[; ;proj1.0.c: 134: CHS0 = 0;
 "134
-[e = _CHS2 -> -> 0 `i `b ]
-[; ;proj1.0.c: 135: _delay((unsigned long)((1)*(20000000/4000.0)));
+[e = _CHS0 -> -> 0 `i `b ]
+[; ;proj1.0.c: 135: CHS1 = 0;
 "135
-[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
-[; ;proj1.0.c: 136: GO_DONE = 1;
+[e = _CHS1 -> -> 0 `i `b ]
+[; ;proj1.0.c: 136: CHS2 = 0;
 "136
-[e = _GO_DONE -> -> 1 `i `b ]
-[; ;proj1.0.c: 138: flag = ~flag;
+[e = _CHS2 -> -> 0 `i `b ]
+[; ;proj1.0.c: 137: _delay((unsigned long)((1)*(20000000/4000.0)));
+"137
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[; ;proj1.0.c: 138: GO_DONE = 1;
 "138
-[e = _flag ! _flag ]
-[; ;proj1.0.c: 140: count = 0;
+[e = _GO_DONE -> -> 1 `i `b ]
+[; ;proj1.0.c: 140: flag = ~flag;
 "140
-[e = _count -> -> 0 `i `uc ]
-[; ;proj1.0.c: 141: check=1;
-"141
-[e = _check -> 1 `i ]
+[e = _flag ! _flag ]
+[; ;proj1.0.c: 142: count = 0;
 "142
+[e = _count -> -> 0 `i `uc ]
+[; ;proj1.0.c: 143: check=1;
+"143
+[e = _check -> 1 `i ]
+"144
 }
 [e :U 117 ]
-[; ;proj1.0.c: 142: }
-[; ;proj1.0.c: 144: if(count == 75)
-"144
-[e $ ! == -> _count `i -> 75 `i 118  ]
-[; ;proj1.0.c: 145: {
-"145
-{
-[; ;proj1.0.c: 146: CHS0 = 1;
+[; ;proj1.0.c: 144: }
+[; ;proj1.0.c: 146: if(count == 75)
 "146
-[e = _CHS0 -> -> 1 `i `b ]
-[; ;proj1.0.c: 147: CHS1 = 0;
+[e $ ! == -> _count `i -> 75 `i 118  ]
+[; ;proj1.0.c: 147: {
 "147
-[e = _CHS1 -> -> 0 `i `b ]
-[; ;proj1.0.c: 148: CHS2 = 0;
+{
+[; ;proj1.0.c: 148: CHS0 = 1;
 "148
-[e = _CHS2 -> -> 0 `i `b ]
-[; ;proj1.0.c: 149: _delay((unsigned long)((1)*(20000000/4000.0)));
+[e = _CHS0 -> -> 1 `i `b ]
+[; ;proj1.0.c: 149: CHS1 = 0;
 "149
-[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
-[; ;proj1.0.c: 150: GO_DONE = 1;
+[e = _CHS1 -> -> 0 `i `b ]
+[; ;proj1.0.c: 150: CHS2 = 0;
 "150
-[e = _GO_DONE -> -> 1 `i `b ]
-[; ;proj1.0.c: 151: check = 0;
+[e = _CHS2 -> -> 0 `i `b ]
+[; ;proj1.0.c: 151: _delay((unsigned long)((1)*(20000000/4000.0)));
 "151
-[e = _check -> 0 `i ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[; ;proj1.0.c: 152: GO_DONE = 1;
 "152
+[e = _GO_DONE -> -> 1 `i `b ]
+[; ;proj1.0.c: 153: check = 0;
+"153
+[e = _check -> 0 `i ]
+"154
 }
 [e :U 118 ]
-[; ;proj1.0.c: 152: }
-[; ;proj1.0.c: 154: if(count == 225)
-"154
-[e $ ! == -> _count `i -> 225 `i 119  ]
-[; ;proj1.0.c: 155: {
-"155
-{
-[; ;proj1.0.c: 156: CHS0 = 0;
+[; ;proj1.0.c: 154: }
+[; ;proj1.0.c: 156: if(count == 231)
 "156
-[e = _CHS0 -> -> 0 `i `b ]
-[; ;proj1.0.c: 157: CHS1 = 1;
+[e $ ! == -> _count `i -> 231 `i 119  ]
+[; ;proj1.0.c: 157: {
 "157
-[e = _CHS1 -> -> 1 `i `b ]
-[; ;proj1.0.c: 158: CHS2 = 0;
+{
+[; ;proj1.0.c: 158: CHS0 = 0;
 "158
-[e = _CHS2 -> -> 0 `i `b ]
-[; ;proj1.0.c: 159: _delay((unsigned long)((1)*(20000000/4000.0)));
+[e = _CHS0 -> -> 0 `i `b ]
+[; ;proj1.0.c: 159: CHS1 = 1;
 "159
-[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
-[; ;proj1.0.c: 160: GO_DONE = 1;
+[e = _CHS1 -> -> 1 `i `b ]
+[; ;proj1.0.c: 160: CHS2 = 0;
 "160
-[e = _GO_DONE -> -> 1 `i `b ]
-[; ;proj1.0.c: 161: check = 2;
+[e = _CHS2 -> -> 0 `i `b ]
+[; ;proj1.0.c: 161: _delay((unsigned long)((1)*(20000000/4000.0)));
 "161
-[e = _check -> 2 `i ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[; ;proj1.0.c: 162: GO_DONE = 1;
 "162
+[e = _GO_DONE -> -> 1 `i `b ]
+[; ;proj1.0.c: 163: check = 2;
+"163
+[e = _check -> 2 `i ]
+"164
 }
 [e :U 119 ]
-[; ;proj1.0.c: 162: }
-[; ;proj1.0.c: 164: if(portaCount >= 30000 && portaFlag==1)
-"164
-[e $ ! && >= -> _portaCount `i -> 30000 `i == _portaFlag -> 1 `i 120  ]
-[; ;proj1.0.c: 165: {
-"165
-{
-[; ;proj1.0.c: 166: RB3 = 1;
-"166
-[e = _RB3 -> -> 1 `i `b ]
-"167
-}
-[e :U 120 ]
-[; ;proj1.0.c: 167: }
-[; ;proj1.0.c: 169: TMR0IF = 0;
-"169
+[; ;proj1.0.c: 164: }
+[; ;proj1.0.c: 171: TMR0IF = 0;
+"171
 [e = _TMR0IF -> -> 0 `i `b ]
-"170
+"172
 }
 [e :U 116 ]
-[; ;proj1.0.c: 170: }
-[; ;proj1.0.c: 172: if(ADIF)
-"172
-[e $ ! _ADIF 121  ]
-[; ;proj1.0.c: 173: {
-"173
-{
-[; ;proj1.0.c: 175: DATA = (ADRESH <<2) + (ADRESL >>6);
+[; ;proj1.0.c: 172: }
+[; ;proj1.0.c: 174: if(ADIF)
+"174
+[e $ ! _ADIF 120  ]
+[; ;proj1.0.c: 175: {
 "175
-[e = _DATA -> + << -> _ADRESH `i -> 2 `i >> -> _ADRESL `i -> 6 `i `ui ]
-[; ;proj1.0.c: 177: if(check==1){ dataTemp = DATA; }
+{
+[; ;proj1.0.c: 177: DATA = (ADRESH <<2) + (ADRESL >>6);
 "177
-[e $ ! == _check -> 1 `i 122  ]
+[e = _DATA -> + << -> _ADRESH `i -> 2 `i >> -> _ADRESL `i -> 6 `i `ui ]
+[; ;proj1.0.c: 179: if(check==1){ dataTemp = DATA; }
+"179
+[e $ ! == _check -> 1 `i 121  ]
 {
 [e = _dataTemp _DATA ]
 }
-[e :U 122 ]
-[; ;proj1.0.c: 178: if(check==0){ dataLuz = DATA; }
-"178
-[e $ ! == _check -> 0 `i 123  ]
+[e :U 121 ]
+[; ;proj1.0.c: 180: if(check==0){ dataLuz = DATA; }
+"180
+[e $ ! == _check -> 0 `i 122  ]
 {
 [e = _dataLuz _DATA ]
 }
-[e :U 123 ]
-[; ;proj1.0.c: 179: if(check==2){ dataBat = DATA; }
-"179
-[e $ ! == _check -> 2 `i 124  ]
+[e :U 122 ]
+[; ;proj1.0.c: 181: if(check==2){ dataBat = DATA; }
+"181
+[e $ ! == _check -> 2 `i 123  ]
 {
 [e = _dataBat _DATA ]
 }
-[e :U 124 ]
-[; ;proj1.0.c: 182: ADIF = 0;
-"182
+[e :U 123 ]
+[; ;proj1.0.c: 184: ADIF = 0;
+"184
 [e = _ADIF -> -> 0 `i `b ]
-"183
-}
-[e :U 121 ]
-[; ;proj1.0.c: 183: }
-[; ;proj1.0.c: 185: }
 "185
+}
+[e :U 120 ]
+[; ;proj1.0.c: 185: }
+[; ;proj1.0.c: 187: }
+"187
 [e :UE 102 ]
 }
-"193
+"195
 [v _main `(v  1 ef ]
 {
-[; ;proj1.0.c: 192: void main(void)
-[; ;proj1.0.c: 193: {
+[; ;proj1.0.c: 194: void main(void)
+[; ;proj1.0.c: 195: {
 [e :U _main ]
 [f ]
-[; ;proj1.0.c: 194: asm("\tpsect config,class=CONFIG,delta=2"); asm("\tdw ""0xFFFF & 0xFFFB & 0xFFBF & 0xFFFF & 0xFFFE & 0xFFFF & 0xFF7F & 0xFFFF");
-"194
+[; ;proj1.0.c: 196: asm("\tpsect config,class=CONFIG,delta=2"); asm("\tdw ""0xFFFF & 0xFFFB & 0xFFBF & 0xFFFF & 0xFFFE & 0xFFFF & 0xFF7F & 0xFFFF");
+"196
 [; 	psect config,class=CONFIG,delta=2 ;#
 [; 	dw 0xFFFF & 0xFFFB & 0xFFBF & 0xFFFF & 0xFFFE & 0xFFFF & 0xFF7F & 0xFFFF ;#
-[; ;proj1.0.c: 196: TRISA0 = 1;
-"196
-[e = _TRISA0 -> -> 1 `i `b ]
-[; ;proj1.0.c: 197: TRISA1 = 1;
-"197
-[e = _TRISA1 -> -> 1 `i `b ]
-[; ;proj1.0.c: 198: TRISA5 = 1;
+[; ;proj1.0.c: 198: TRISA0 = 1;
 "198
-[e = _TRISA5 -> -> 1 `i `b ]
-[; ;proj1.0.c: 199: TRISA4 = 0;
+[e = _TRISA0 -> -> 1 `i `b ]
+[; ;proj1.0.c: 199: TRISA1 = 1;
 "199
-[e = _TRISA4 -> -> 0 `i `b ]
-[; ;proj1.0.c: 200: TRISA5 = 0;
+[e = _TRISA1 -> -> 1 `i `b ]
+[; ;proj1.0.c: 200: TRISA5 = 1;
 "200
+[e = _TRISA5 -> -> 1 `i `b ]
+[; ;proj1.0.c: 201: TRISA4 = 0;
+"201
+[e = _TRISA4 -> -> 0 `i `b ]
+[; ;proj1.0.c: 202: TRISA5 = 0;
+"202
 [e = _TRISA5 -> -> 0 `i `b ]
-[; ;proj1.0.c: 203: TRISB = 0b11111111;
-"203
-[e = _TRISB -> -> 255 `i `uc ]
-[; ;proj1.0.c: 204: TRISB0 = 0;
-"204
-[e = _TRISB0 -> -> 0 `i `b ]
-[; ;proj1.0.c: 205: TRISB1 = 0;
+[; ;proj1.0.c: 205: TRISB = 0b11111111;
 "205
-[e = _TRISB1 -> -> 0 `i `b ]
-[; ;proj1.0.c: 206: TRISB2 = 0;
+[e = _TRISB -> -> 255 `i `uc ]
+[; ;proj1.0.c: 206: TRISB0 = 0;
 "206
-[e = _TRISB2 -> -> 0 `i `b ]
-[; ;proj1.0.c: 207: TRISB3 = 0;
+[e = _TRISB0 -> -> 0 `i `b ]
+[; ;proj1.0.c: 207: TRISB1 = 0;
 "207
-[e = _TRISB3 -> -> 0 `i `b ]
-[; ;proj1.0.c: 208: TRISB6 = 1;
+[e = _TRISB1 -> -> 0 `i `b ]
+[; ;proj1.0.c: 208: TRISB2 = 0;
 "208
+[e = _TRISB2 -> -> 0 `i `b ]
+[; ;proj1.0.c: 209: TRISB3 = 0;
+"209
+[e = _TRISB3 -> -> 0 `i `b ]
+[; ;proj1.0.c: 210: TRISB6 = 1;
+"210
 [e = _TRISB6 -> -> 1 `i `b ]
-[; ;proj1.0.c: 211: INTEDG = 1;
-"211
-[e = _INTEDG -> -> 1 `i `b ]
-[; ;proj1.0.c: 212: INTF = 0;
-"212
-[e = _INTF -> -> 0 `i `b ]
-[; ;proj1.0.c: 213: INTE = 1;
+[; ;proj1.0.c: 213: INTEDG = 1;
 "213
+[e = _INTEDG -> -> 1 `i `b ]
+[; ;proj1.0.c: 214: INTF = 0;
+"214
+[e = _INTF -> -> 0 `i `b ]
+[; ;proj1.0.c: 215: INTE = 1;
+"215
 [e = _INTE -> -> 1 `i `b ]
-[; ;proj1.0.c: 217: T0CS = 0;
-"217
-[e = _T0CS -> -> 0 `i `b ]
-[; ;proj1.0.c: 218: T0SE = 0;
-"218
-[e = _T0SE -> -> 0 `i `b ]
-[; ;proj1.0.c: 219: PSA = 0;
+[; ;proj1.0.c: 219: T0CS = 0;
 "219
-[e = _PSA -> -> 0 `i `b ]
-[; ;proj1.0.c: 220: PS2 = 1;
+[e = _T0CS -> -> 0 `i `b ]
+[; ;proj1.0.c: 220: T0SE = 0;
 "220
-[e = _PS2 -> -> 1 `i `b ]
-[; ;proj1.0.c: 221: PS1 = 1;
+[e = _T0SE -> -> 0 `i `b ]
+[; ;proj1.0.c: 221: PSA = 0;
 "221
-[e = _PS1 -> -> 1 `i `b ]
-[; ;proj1.0.c: 222: PS0 = 1;
+[e = _PSA -> -> 0 `i `b ]
+[; ;proj1.0.c: 222: PS2 = 1;
 "222
-[e = _PS0 -> -> 1 `i `b ]
-[; ;proj1.0.c: 224: TMR0IF = 0;
+[e = _PS2 -> -> 1 `i `b ]
+[; ;proj1.0.c: 223: PS1 = 1;
+"223
+[e = _PS1 -> -> 1 `i `b ]
+[; ;proj1.0.c: 224: PS0 = 1;
 "224
-[e = _TMR0IF -> -> 0 `i `b ]
-[; ;proj1.0.c: 225: TMR0IE = 1;
-"225
-[e = _TMR0IE -> -> 1 `i `b ]
-[; ;proj1.0.c: 226: RBIF = 0;
+[e = _PS0 -> -> 1 `i `b ]
+[; ;proj1.0.c: 226: TMR0IF = 0;
 "226
-[e = _RBIF -> -> 0 `i `b ]
-[; ;proj1.0.c: 227: RBIE = 1;
+[e = _TMR0IF -> -> 0 `i `b ]
+[; ;proj1.0.c: 227: TMR0IE = 1;
 "227
-[e = _RBIE -> -> 1 `i `b ]
-[; ;proj1.0.c: 228: PEIE = 1;
+[e = _TMR0IE -> -> 1 `i `b ]
+[; ;proj1.0.c: 228: RBIF = 0;
 "228
-[e = _PEIE -> -> 1 `i `b ]
-[; ;proj1.0.c: 229: GIE = 1;
+[e = _RBIF -> -> 0 `i `b ]
+[; ;proj1.0.c: 229: RBIE = 1;
 "229
+[e = _RBIE -> -> 1 `i `b ]
+[; ;proj1.0.c: 230: PEIE = 1;
+"230
+[e = _PEIE -> -> 1 `i `b ]
+[; ;proj1.0.c: 231: GIE = 1;
+"231
 [e = _GIE -> -> 1 `i `b ]
-[; ;proj1.0.c: 232: TRISC7 = 1; TRISC6 = 1; SPBRG = ((int)(20000000/(16UL * 9600) -1)); RCSTA = (0|0x90); TXSTA = (0x4|0|0x20);
-"232
+[; ;proj1.0.c: 234: TRISC7 = 1; TRISC6 = 1; SPBRG = ((int)(20000000/(16UL * 9600) -1)); RCSTA = (0|0x90); TXSTA = (0x4|0|0x20);
+"234
 [e = _TRISC7 -> -> 1 `i `b ]
 [e = _TRISC6 -> -> 1 `i `b ]
 [e = _SPBRG -> -> - / -> -> 20000000 `l `ul * -> 16 `ul -> -> -> 9600 `i `l `ul -> -> -> 1 `i `l `ul `i `uc ]
 [e = _RCSTA -> | -> 0 `i -> 144 `i `uc ]
 [e = _TXSTA -> | | -> 4 `i -> 0 `i -> 32 `i `uc ]
-[; ;proj1.0.c: 238: ADCS1 = 1;
-"238
-[e = _ADCS1 -> -> 1 `i `b ]
-[; ;proj1.0.c: 239: ADCS2 = 1;
-"239
-[e = _ADCS2 -> -> 1 `i `b ]
-[; ;proj1.0.c: 240: ADCS0 = 0;
+[; ;proj1.0.c: 240: ADCS1 = 1;
 "240
-[e = _ADCS0 -> -> 0 `i `b ]
-[; ;proj1.0.c: 242: CHS0 = 0;
+[e = _ADCS1 -> -> 1 `i `b ]
+[; ;proj1.0.c: 241: ADCS2 = 1;
+"241
+[e = _ADCS2 -> -> 1 `i `b ]
+[; ;proj1.0.c: 242: ADCS0 = 0;
 "242
-[e = _CHS0 -> -> 0 `i `b ]
-[; ;proj1.0.c: 243: CHS1 = 0;
-"243
-[e = _CHS1 -> -> 0 `i `b ]
-[; ;proj1.0.c: 244: CHS2 = 0;
+[e = _ADCS0 -> -> 0 `i `b ]
+[; ;proj1.0.c: 244: CHS0 = 0;
 "244
-[e = _CHS2 -> -> 0 `i `b ]
-[; ;proj1.0.c: 246: ADFM = 0;
+[e = _CHS0 -> -> 0 `i `b ]
+[; ;proj1.0.c: 245: CHS1 = 0;
+"245
+[e = _CHS1 -> -> 0 `i `b ]
+[; ;proj1.0.c: 246: CHS2 = 0;
 "246
-[e = _ADFM -> -> 0 `i `b ]
-[; ;proj1.0.c: 248: PCFG3 = 0;
+[e = _CHS2 -> -> 0 `i `b ]
+[; ;proj1.0.c: 248: ADFM = 0;
 "248
-[e = _PCFG3 -> -> 0 `i `b ]
-[; ;proj1.0.c: 249: PCFG2 = 1;
-"249
-[e = _PCFG2 -> -> 1 `i `b ]
-[; ;proj1.0.c: 250: PCFG1 = 0;
+[e = _ADFM -> -> 0 `i `b ]
+[; ;proj1.0.c: 250: PCFG3 = 0;
 "250
-[e = _PCFG1 -> -> 0 `i `b ]
-[; ;proj1.0.c: 251: PCFG0 = 0;
+[e = _PCFG3 -> -> 0 `i `b ]
+[; ;proj1.0.c: 251: PCFG2 = 1;
 "251
-[e = _PCFG0 -> -> 0 `i `b ]
-[; ;proj1.0.c: 253: ADIF = 0;
+[e = _PCFG2 -> -> 1 `i `b ]
+[; ;proj1.0.c: 252: PCFG1 = 0;
+"252
+[e = _PCFG1 -> -> 0 `i `b ]
+[; ;proj1.0.c: 253: PCFG0 = 0;
 "253
+[e = _PCFG0 -> -> 0 `i `b ]
+[; ;proj1.0.c: 255: ADIF = 0;
+"255
 [e = _ADIF -> -> 0 `i `b ]
-[; ;proj1.0.c: 254: ADIE = 1;
-"254
+[; ;proj1.0.c: 256: ADIE = 1;
+"256
 [e = _ADIE -> -> 1 `i `b ]
-[; ;proj1.0.c: 271: ADON = 1;
-"271
-[e = _ADON -> -> 1 `i `b ]
-[; ;proj1.0.c: 273: GO_DONE = 1;
+[; ;proj1.0.c: 273: ADON = 1;
 "273
-[e = _GO_DONE -> -> 1 `i `b ]
-[; ;proj1.0.c: 275: RB2 = 0;
+[e = _ADON -> -> 1 `i `b ]
+[; ;proj1.0.c: 275: GO_DONE = 1;
 "275
-[e = _RB2 -> -> 0 `i `b ]
-[; ;proj1.0.c: 276: RB3=0;
-"276
-[e = _RB3 -> -> 0 `i `b ]
-[; ;proj1.0.c: 277: RA4 = 0;
+[e = _GO_DONE -> -> 1 `i `b ]
+[; ;proj1.0.c: 277: RB2 = 0;
 "277
-[e = _RA4 -> -> 0 `i `b ]
-[; ;proj1.0.c: 278: RA5 = 0;
+[e = _RB2 -> -> 0 `i `b ]
+[; ;proj1.0.c: 278: RB3=0;
 "278
-[e = _RA5 -> -> 0 `i `b ]
-[; ;proj1.0.c: 280: while(1)
-"280
-[e :U 127 ]
-[; ;proj1.0.c: 281: {
-"281
-{
-[; ;proj1.0.c: 286: temp = (5 * dataTemp / 1023.0)*100;
-"286
-[e = _temp -> * / -> * -> -> 5 `i `ui _dataTemp `d .1023.0 -> -> 100 `i `d `f ]
-[; ;proj1.0.c: 291: if(temp > 20)
-"291
-[e $ ! > _temp -> -> 20 `i `f 129  ]
-[; ;proj1.0.c: 292: {
-"292
-{
-[; ;proj1.0.c: 293: RB1 = 1;
-"293
-[e = _RB1 -> -> 1 `i `b ]
-"294
-}
-[; ;proj1.0.c: 294: }else
-[e $U 130  ]
-[e :U 129 ]
-[; ;proj1.0.c: 295: {
-"295
-{
-[; ;proj1.0.c: 296: RB1 = 0;
-"296
-[e = _RB1 -> -> 0 `i `b ]
-"297
-}
-[e :U 130 ]
-[; ;proj1.0.c: 297: }
-[; ;proj1.0.c: 304: luz = (5 * dataLuz / 1023.0);
-"304
-[e = _luz -> / -> * -> -> 5 `i `ui _dataLuz `d .1023.0 `f ]
-[; ;proj1.0.c: 306: printf("\nA luminosidade eh: %f", luz);
-"306
-[e ( _printf , (. :s 1C -> _luz `d ]
-[; ;proj1.0.c: 308: if(luz < 1.20)
-"308
-[e $ ! < -> _luz `d .1.20 131  ]
-[; ;proj1.0.c: 309: {
-"309
-{
-[; ;proj1.0.c: 310: RB0 = 1;
-"310
-[e = _RB0 -> -> 1 `i `b ]
-"311
-}
-[; ;proj1.0.c: 311: }
-[e $U 132  ]
-"312
-[e :U 131 ]
-[; ;proj1.0.c: 312: else if ( luz >= 1.20 && luz < 2.4)
-[e $ ! && >= -> _luz `d .1.20 < -> _luz `d .2.4 133  ]
-[; ;proj1.0.c: 313: {
-"313
-{
-[; ;proj1.0.c: 314: RB0 = 1;
-"314
-[e = _RB0 -> -> 1 `i `b ]
-"315
-}
-[; ;proj1.0.c: 315: }
-[e $U 134  ]
-"316
-[e :U 133 ]
-[; ;proj1.0.c: 316: else if ( luz >= 2.4 && luz < 4.8)
-[e $ ! && >= -> _luz `d .2.4 < -> _luz `d .4.8 135  ]
-[; ;proj1.0.c: 317: {
-"317
-{
-[; ;proj1.0.c: 318: RB0 = 0;
-"318
-[e = _RB0 -> -> 0 `i `b ]
-"319
-}
-[; ;proj1.0.c: 319: }
-[e $U 136  ]
-"320
-[e :U 135 ]
-[; ;proj1.0.c: 320: else if ( luz >= 4.8)
-[e $ ! >= -> _luz `d .4.8 137  ]
-[; ;proj1.0.c: 321: {
-"321
-{
-[; ;proj1.0.c: 322: RB0 = 0;
-"322
-[e = _RB0 -> -> 0 `i `b ]
-"323
-}
-[e :U 137 ]
-"328
-[e :U 136 ]
-[e :U 134 ]
-[e :U 132 ]
-[; ;proj1.0.c: 323: }
-[; ;proj1.0.c: 328: bateria = (5 * dataBat / 1023.0);
-[e = _bateria -> / -> * -> -> 5 `i `ui _dataBat `d .1023.0 `f ]
-[; ;proj1.0.c: 330: if(bateria>=2.45) printf("\nA bateria esta acima da metade");
-"330
-[e $ ! >= -> _bateria `d .2.45 138  ]
-[e ( _printf :s 2C ]
-[e $U 139  ]
-"331
-[e :U 138 ]
-[; ;proj1.0.c: 331: else printf("\nA bateria esta abaixo da metade");
-[e ( _printf :s 3C ]
-[e :U 139 ]
-[; ;proj1.0.c: 339: if(temp > 40)
-"339
-[e $ ! > _temp -> -> 40 `i `f 140  ]
-[; ;proj1.0.c: 340: {
-"340
-{
-[; ;proj1.0.c: 341: RA4 = 0;
-"341
+[e = _RB3 -> -> 0 `i `b ]
+[; ;proj1.0.c: 279: RA4 = 0;
+"279
 [e = _RA4 -> -> 0 `i `b ]
+[; ;proj1.0.c: 280: RA5 = 0;
+"280
+[e = _RA5 -> -> 0 `i `b ]
+[; ;proj1.0.c: 282: while(1)
+"282
+[e :U 126 ]
+[; ;proj1.0.c: 283: {
+"283
+{
+[; ;proj1.0.c: 288: temp = (5 * dataTemp / 1023.0)*100;
+"288
+[e = _temp -> * / -> * -> -> 5 `i `ui _dataTemp `d .1023.0 -> -> 100 `i `d `f ]
+[; ;proj1.0.c: 293: if(temp > 20)
+"293
+[e $ ! > _temp -> -> 20 `i `f 128  ]
+[; ;proj1.0.c: 294: {
+"294
+{
+[; ;proj1.0.c: 295: RB1 = 1;
+"295
+[e = _RB1 -> -> 1 `i `b ]
+"296
+}
+[; ;proj1.0.c: 296: }else
+[e $U 129  ]
+[e :U 128 ]
+[; ;proj1.0.c: 297: {
+"297
+{
+[; ;proj1.0.c: 298: RB1 = 0;
+"298
+[e = _RB1 -> -> 0 `i `b ]
+"299
+}
+[e :U 129 ]
+[; ;proj1.0.c: 299: }
+[; ;proj1.0.c: 306: luz = (5 * dataLuz / 1023.0);
+"306
+[e = _luz -> / -> * -> -> 5 `i `ui _dataLuz `d .1023.0 `f ]
+[; ;proj1.0.c: 308: printf("\nA luminosidade eh: %f", luz);
+"308
+[e ( _printf , (. :s 1C -> _luz `d ]
+[; ;proj1.0.c: 310: if(luz < 1.20)
+"310
+[e $ ! < -> _luz `d .1.20 130  ]
+[; ;proj1.0.c: 311: {
+"311
+{
+[; ;proj1.0.c: 312: RB0 = 1;
+"312
+[e = _RB0 -> -> 1 `i `b ]
+"313
+}
+[; ;proj1.0.c: 313: }
+[e $U 131  ]
+"314
+[e :U 130 ]
+[; ;proj1.0.c: 314: else if ( luz >= 1.20 && luz < 2.4)
+[e $ ! && >= -> _luz `d .1.20 < -> _luz `d .2.4 132  ]
+[; ;proj1.0.c: 315: {
+"315
+{
+[; ;proj1.0.c: 316: RB0 = 1;
+"316
+[e = _RB0 -> -> 1 `i `b ]
+"317
+}
+[; ;proj1.0.c: 317: }
+[e $U 133  ]
+"318
+[e :U 132 ]
+[; ;proj1.0.c: 318: else if ( luz >= 2.4 && luz < 4.8)
+[e $ ! && >= -> _luz `d .2.4 < -> _luz `d .4.8 134  ]
+[; ;proj1.0.c: 319: {
+"319
+{
+[; ;proj1.0.c: 320: RB0 = 0;
+"320
+[e = _RB0 -> -> 0 `i `b ]
+"321
+}
+[; ;proj1.0.c: 321: }
+[e $U 135  ]
+"322
+[e :U 134 ]
+[; ;proj1.0.c: 322: else if ( luz >= 4.8)
+[e $ ! >= -> _luz `d .4.8 136  ]
+[; ;proj1.0.c: 323: {
+"323
+{
+[; ;proj1.0.c: 324: RB0 = 0;
+"324
+[e = _RB0 -> -> 0 `i `b ]
+"325
+}
+[e :U 136 ]
+"330
+[e :U 135 ]
+[e :U 133 ]
+[e :U 131 ]
+[; ;proj1.0.c: 325: }
+[; ;proj1.0.c: 330: bateria = (5 * dataBat / 1023.0);
+[e = _bateria -> / -> * -> -> 5 `i `ui _dataBat `d .1023.0 `f ]
+[; ;proj1.0.c: 332: if(bateria>=2.45) printf("\nA bateria esta acima da metade");
+"332
+[e $ ! >= -> _bateria `d .2.45 137  ]
+[e ( _printf :s 2C ]
+[e $U 138  ]
+"333
+[e :U 137 ]
+[; ;proj1.0.c: 333: else printf("\nA bateria esta abaixo da metade");
+[e ( _printf :s 3C ]
+[e :U 138 ]
+[; ;proj1.0.c: 341: if(temp > 40)
+"341
+[e $ ! > _temp -> -> 40 `i `f 139  ]
+[; ;proj1.0.c: 342: {
 "342
+{
+[; ;proj1.0.c: 343: RA4 = 0;
+"343
+[e = _RA4 -> -> 0 `i `b ]
+"344
+}
+[e :U 139 ]
+[; ;proj1.0.c: 344: }
+[; ;proj1.0.c: 347: if(RA4 == 0 && teste_escot==0)
+"347
+[e $ ! && == -> _RA4 `i -> 0 `i == _teste_escot -> -> 0 `i `ui 140  ]
+[; ;proj1.0.c: 348: {
+"348
+{
+[; ;proj1.0.c: 350: if(RA5==0)RA5=1;
+"350
+[e $ ! == -> _RA5 `i -> 0 `i 141  ]
+[e = _RA5 -> -> 1 `i `b ]
+[e $U 142  ]
+"351
+[e :U 141 ]
+[; ;proj1.0.c: 351: else RA5=0;
+[e = _RA5 -> -> 0 `i `b ]
+[e :U 142 ]
+[; ;proj1.0.c: 352: teste_escot=1;
+"352
+[e = _teste_escot -> -> 1 `i `ui ]
+"353
 }
 [e :U 140 ]
-[; ;proj1.0.c: 342: }
-[; ;proj1.0.c: 345: if(RA4 == 0)
-"345
-[e $ ! == -> _RA4 `i -> 0 `i 141  ]
-[; ;proj1.0.c: 346: {
-"346
-{
-[; ;proj1.0.c: 347: RA5 = ~RA5;
-"347
-[e = _RA5 ! _RA5 ]
-"348
-}
-[e :U 141 ]
-[; ;proj1.0.c: 348: }
-[; ;proj1.0.c: 351: if(RB4 == 0)
-"351
-[e $ ! == -> _RB4 `i -> 0 `i 142  ]
-[; ;proj1.0.c: 352: {
-"352
-{
-[; ;proj1.0.c: 353: portaFlag = 1;
-"353
-[e = _portaFlag -> 1 `i ]
-[; ;proj1.0.c: 354: portaCount = 0;
+[; ;proj1.0.c: 353: }
+[; ;proj1.0.c: 354: if(RA4 == 1 && teste_escot==1)
 "354
-[e = _portaCount -> -> 0 `i `uc ]
+[e $ ! && == -> _RA4 `i -> 1 `i == _teste_escot -> -> 1 `i `ui 143  ]
+[; ;proj1.0.c: 355: {
+"355
+{
+[; ;proj1.0.c: 356: teste_escot=0;
 "356
+[e = _teste_escot -> -> 0 `i `ui ]
+"357
 }
-[e :U 142 ]
-"358
+[e :U 143 ]
+[; ;proj1.0.c: 357: }
+[; ;proj1.0.c: 360: if(RB4 == 0)
+"360
+[e $ ! == -> _RB4 `i -> 0 `i 144  ]
+[; ;proj1.0.c: 361: {
+"361
+{
+[; ;proj1.0.c: 362: portaFlag = 1;
+"362
+[e = _portaFlag -> 1 `i ]
+[; ;proj1.0.c: 363: portaCount = 0;
+"363
+[e = _portaCount -> -> 0 `i `uc ]
+"365
 }
-[e :U 126 ]
-"280
-[e $U 127  ]
-[e :U 128 ]
-[; ;proj1.0.c: 356: }
-[; ;proj1.0.c: 358: }
-[; ;proj1.0.c: 359: }
-"359
-[e :UE 125 ]
+[e :U 144 ]
+"367
+}
+[e :U 125 ]
+"282
+[e $U 126  ]
+[e :U 127 ]
+[; ;proj1.0.c: 365: }
+[; ;proj1.0.c: 367: }
+[; ;proj1.0.c: 368: }
+"368
+[e :UE 124 ]
 }
 [a 1C 10 65 32 108 117 109 105 110 111 115 105 100 97 100 101 32 101 104 58 32 37 102 0 ]
 [a 3C 10 65 32 98 97 116 101 114 105 97 32 101 115 116 97 32 97 98 97 105 120 111 32 100 97 32 109 101 116 97 100 101 0 ]

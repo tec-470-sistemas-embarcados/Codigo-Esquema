@@ -27,6 +27,8 @@ unsigned int DATA = 0;
 unsigned int dataTemp = 0;
 unsigned int dataLuz = 0;
 unsigned int dataBat = 0;
+unsigned int teste_escot = 0;
+
 
 int check= 0;
 bit flag = 0;
@@ -107,7 +109,7 @@ void interrupt interupt(void)
 				ant7= 1;
 			}else
 			{
-			//	porta_out = 0;
+		
 				ant7 = 0;
 			}
 			escotilha_out = ant7;
@@ -151,7 +153,7 @@ void interrupt interupt(void)
 			check = 0;	
 		}
 
-		if(count == 225)
+		if(count == 231)
 		{		
 			CHS0 = 0;	
 			CHS1 = 1;
@@ -161,17 +163,17 @@ void interrupt interupt(void)
 			check = 2;	
 		}
 		//porta aberta por mais de 30s
-		if(portaCount >= 30000 && portaFlag==1)
+	/*	if(portaCount >= 30000 && portaFlag==1)
 		{
 			cortina_out = 1;
-		}
+		}*/
 		
 		TMR0IF = 0;
 	}
 	
 	if(ADIF) // interrupção modulo ad
 	{
-
+//
 		DATA = (ADRESH <<2) + (ADRESL >>6);
 
 		if(check==1){ dataTemp = DATA; }
@@ -342,12 +344,19 @@ escotilha_out = 0;
 		}
 
 		//sistema de aquecimento desligado = escotilha abre ou fecha (muda de estado)
-		if(aquecimento_out == 0)
+		if(aquecimento_out == 0 && teste_escot==0)
 		{
-			escotilha_out = ~escotilha_out;
+			//escotilha_out = ~escotilha_out;
+			if(escotilha_out==0)escotilha_out=1;
+			else escotilha_out=0;
+			teste_escot=1;
+		}
+		if(aquecimento_out == 1 && teste_escot==1)
+		{
+				teste_escot=0;
 		}
 		
-		//se a porta foi aberta
+		//se a porta foi aberta 30s
 		if(porta_in == 0)
 		{
 			portaFlag = 1;

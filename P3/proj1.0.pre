@@ -1164,6 +1164,8 @@ unsigned int DATA = 0;
 unsigned int dataTemp = 0;
 unsigned int dataLuz = 0;
 unsigned int dataBat = 0;
+unsigned int teste_escot = 0;
+
 
 int check= 0;
 bit flag = 0;
@@ -1186,7 +1188,7 @@ float bateria = 0;
 void interrupt interupt(void)
 {
 
-# 61
+# 63
 if(RBIF){
 
 if(ant4!=RB4)
@@ -1244,7 +1246,7 @@ RA5 = ant7;
 
 _delay((unsigned long)((300)*(20000000/4000.0)));
 
-# 122
+# 124
 RBIF = 0;
 }
 
@@ -1277,7 +1279,7 @@ GO_DONE = 1;
 check = 0;
 }
 
-if(count == 225)
+if(count == 231)
 {
 CHS0 = 0;
 CHS1 = 1;
@@ -1287,11 +1289,7 @@ GO_DONE = 1;
 check = 2;
 }
 
-if(portaCount >= 30000 && portaFlag==1)
-{
-RB3 = 1;
-}
-
+# 171
 TMR0IF = 0;
 }
 
@@ -1310,7 +1308,7 @@ ADIF = 0;
 
 }
 
-# 192
+# 194
 void main(void)
 {
 asm("\tpsect config,class=CONFIG,delta=2"); asm("\tdw ""0xFFFF & 0xFFFB & 0xFFBF & 0xFFFF & 0xFFFE & 0xFFFF & 0xFF7F & 0xFFFF");
@@ -1353,7 +1351,7 @@ GIE = 1;
 
 TRISC7 = 1; TRISC6 = 1; SPBRG = ((int)(20000000/(16UL * 9600) -1)); RCSTA = (0|0x90); TXSTA = (0x4|0|0x20);
 
-# 238
+# 240
 ADCS1 = 1;
 ADCS2 = 1;
 ADCS0 = 0;
@@ -1372,7 +1370,7 @@ PCFG0 = 0;
 ADIF = 0;
 ADIE = 1;
 
-# 271
+# 273
 ADON = 1;
 
 GO_DONE = 1;
@@ -1401,7 +1399,7 @@ RB1 = 1;
 RB1 = 0;
 }
 
-# 304
+# 306
 luz = (5 * dataLuz / 1023.0);
 
 printf("\nA luminosidade eh: %f", luz);
@@ -1431,16 +1429,23 @@ bateria = (5 * dataBat / 1023.0);
 if(bateria>=2.45) printf("\nA bateria esta acima da metade");
 else printf("\nA bateria esta abaixo da metade");
 
-# 339
+# 341
 if(temp > 40)
 {
 RA4 = 0;
 }
 
 
-if(RA4 == 0)
+if(RA4 == 0 && teste_escot==0)
 {
-RA5 = ~RA5;
+
+if(RA5==0)RA5=1;
+else RA5=0;
+teste_escot=1;
+}
+if(RA4 == 1 && teste_escot==1)
+{
+teste_escot=0;
 }
 
 
